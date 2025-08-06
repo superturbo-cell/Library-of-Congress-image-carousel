@@ -9,8 +9,16 @@ This project remixes Library of Congress information into a carousel based on a 
  This project was developed on a [Library of Congress API]([url](https://www.loc.gov/apis/json-and-yaml/)) that can be used without a key. 
 
  # User Steps
-•	Describe any setup that has to be done before the user can start, such as signing up for a API key, creating a specific kind of table. etc.
-•	If your project uses API or other keys, clearly describe how the user is supposed to use their keys, e.g. creating a keys.py file (give an example of the file content with bogus keys), using dotenv. etc. 
+## Create the Requests for the Library of Congress API
+-- import requests
+-- Define Search Parameters
+-- Make the Request
+-- Check the Response and add in additinoal information.
+
+## Create a a Flask App
+--Import Flask 
+
+
 •	Describe how to use your project (preferably using screenshots), walking through it from a end user's perspective, step - by step, in a logical order.
 •	If possible make a note on possible errors (i.e. messages that the user might get) and how to fix those.
 •	If your project provides code that is meant for other programmers to use (i.e. provides some sort of API), this user's guide can simply be a quick intro on how to get started programming with it using several examples, rising in complexity. Anything more technical should be put into the developer's documentation.
