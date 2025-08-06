@@ -1,7 +1,11 @@
+touch README.md
 External documentation (i.e. the developer's guide)
-•	I also want you to write a separate developer's document that will go into the doc folder in your github doc folder. I suggest using markdown (see Users guide instructions for more on that) but it could also be a pdf.
-•	User: other library professionals trying to develop discovery tools for the content in their collections or historical societies trying to get a sense of what is covered in their collections.
-o	The gallery code could be used in conjunction with API systems of shared collections as more of our services move to cloud-based systems that allow content to be reused in that way. 
+
+#User#
+-Other library professionals trying to develop discovery tools for the content in their collections or historical societies trying to get a sense of what is covered in their collections.
+-The gallery code could be used in conjunction with API systems of shared collections as more of our services move to cloud-based systems that allow content to be reused in that way. 
+
+
 •	This project remixes Library of Congress information into a carousel of images using JSON. 
 o	Using Python code to construct a Flask application. 
 o	Bootstrap 5 is used for formatting a webpage using HTM: classes and Javascript functionality and then rendered in Flask.  
