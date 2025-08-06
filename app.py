@@ -6,10 +6,10 @@ app = Flask(__name__)
 # List of default image URLs and texts
 # These will be replaced with the results from the API call
 # after the user enters a search term.
-image_urls = ["https://www.loc.gov/static/home/images/your-library/02-ResearchCenter.jpg"
+image_urls = ["https://www.loc.gov/static/research-centers/main/images/banners/banner-placeholder.jpg"
    
 ]
-text_list = ["Welcome to the Image Carousel! Please enter a search term to see images from the Library of Congress."
+text_list = ["Welcome to the Image Carousel! Enter a search term find a carousel of images categorized with that term in the Library of Congress digital collections."
   
 ]
 
