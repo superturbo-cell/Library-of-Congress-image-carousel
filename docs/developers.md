@@ -8,7 +8,9 @@ This project remixes Library of Congress information into a carousel based on a 
 # Install 
 Use pip to install third party packages [Flask](https://flask.palletsprojects.com/en/stable/url) and [Requests](https://pypi.org/project/requests/)
 
-# Search Code for the API
+# Code for Reuse
+The block of code that does most of the work requesting from the API is:
+
 ```  # Make the request
     response = requests.get(url, params=params)
 
@@ -25,6 +27,30 @@ Use pip to install third party packages [Flask](https://flask.palletsprojects.co
     else:
         print(f"Error: {response.status_code}")
 ```
+
+The code for the Carousel in Bootstrap 5 is :
+``` <!-- Carousel -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            {% for image, caption in slides %}
+            <div class="carousel-item {% if loop.first %}active{% endif %}">
+                <img src="{{ image }}" class="d-block mx-auto carousel-img" alt="{{ caption }}">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>{{ caption }}</h5>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> ```
+
 # User Flow
 •	Known Issues: You should mention any issues you know about (or suspect)
 
