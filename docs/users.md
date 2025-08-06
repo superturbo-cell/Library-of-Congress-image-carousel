@@ -1,5 +1,5 @@
 # User Guide
-This project remixes Library of Congress information into a carousel based on a search term input. The project uses Python to construct a [Flask](https://flask.palletsprojects.com/en/stable/) Application that is then formatted  into classes with Bootstrap 5. 
+This project remixes Library of Congress information into a carousel based on a search term input. The project uses Python to construct a [Flask](https://flask.palletsprojects.com/en/stable/) Application that is then formatted  into classes with [Bootstrap 5]([url](https://getbootstrap.com/docs/5.0/getting-started/introduction/)). 
 
 # User
 - Library workers or Archivists who develop discovery tools for their institution's digital collections.
