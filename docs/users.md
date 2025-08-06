@@ -1,4 +1,4 @@
-#User Guide
+# User Guide
 Create a guide that tells the (end) user everything needed to install your project and run it. This can be a document separate to your project ReadMe.md file but I think it's best to actually put everything in the Readme.md file, which is what many github projects do. Please read the instructions to the developer's documentation now, so you have an idea how both documents should be separated (i.e. which material goes where). There may be some overlap but if in doubt, the user's guide should refer to simple stuff, complex stuff should go in the developer's documentation.
 •	You can assume that your user is savvy enough to either clone or download your repo into a folder. So no need to describe that.
 •	Describe any setup that has to be done before the user can start, such as signing up for a API key, creating a specific kind of table. etc.
