@@ -49,7 +49,8 @@ The code for the Carousel in Bootstrap 5 is :
         </button>
     </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> ```
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+```
 
 # User Flow
 •	Known Issues: You should mention any issues you know about (or suspect)
