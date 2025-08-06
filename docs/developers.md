@@ -1,16 +1,13 @@
-#External documentation (i.e. the developer's guide)#
+# External documentation (i.e. the developer's guide)#
+This project remixes Library of Congress information into a carousel based on a search term input. The project uses Python to construct a Flask Application that is then formatted  into classes with Bootstrap 5. 
 
-##User##
--Other library professionals trying to develop discovery tools for the content in their collections or historical societies trying to get a sense of what is covered in their collections.
--The gallery code could be used in conjunction with API systems of shared collections as more of our services move to cloud-based systems that allow content to be reused in that way. 
+# User
+- Library workers or Archivists who develop discovery tools for their institution's digital collections.
+- Code that can be used with the API systems of shared archival and digital collections to retrieve information in an alternative view. 
+ 
+# Install 
+Use pip to install third party packages [Flask](https://flask.palletsprojects.com/en/stable/url) and [Requests](https://pypi.org/project/requests/)
 
-
-•	This project remixes Library of Congress information into a carousel of images using JSON. 
-o	Using Python code to construct a Flask application. 
-o	Bootstrap 5 is used for formatting a webpage using HTM: classes and Javascript functionality and then rendered in Flask.  
-•	. Installs: 
-o	Use pip to install third party packages Flask and Requests
-o	Bootstrap 
 •	(End) User interaction and flow through your code ("walkthrough")
 •	Known Issues: You should mention any issues you know about (or suspect)
 •	Future Work
