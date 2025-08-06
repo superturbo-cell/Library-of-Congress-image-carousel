@@ -1,1 +1,14 @@
-
+Create a guide that tells the (end) user everything needed to install your project and run it. This can be a document separate to your project ReadMe.md file but I think it's best to actually put everything in the Readme.md file, which is what many github projects do. Please read the instructions to the developer's documentation now, so you have an idea how both documents should be separated (i.e. which material goes where). There may be some overlap but if in doubt, the user's guide should refer to simple stuff, complex stuff should go in the developer's documentation.
+•	You can assume that your user is savvy enough to either clone or download your repo into a folder. So no need to describe that.
+•	Describe any setup that has to be done before the user can start, such as signing up for a API key, creating a specific kind of table. etc.
+•	If your project uses API or other keys, clearly describe how the user is supposed to use their keys, e.g. creating a keys.py file (give an example of the file content with bogus keys), using dotenv. etc. 
+•	Describe how to use your project (preferably using screenshots), walking through it from a end user's perspective, step - by step, in a logical order.
+•	If possible make a note on possible errors (i.e. messages that the user might get) and how to fix those.
+•	If your project provides code that is meant for other programmers to use (i.e. provides some sort of API), this user's guide can simply be a quick intro on how to get started programming with it using several examples, rising in complexity. Anything more technical should be put into the developer's documentation.
+•	Mention any caveats, things currently not implemented or not working as intended, bugs or any other limitations (having these is fine and no reason to feel bad!) Again, keep it simple here and put notes about more complex issues and limitations into the developer's documentation instead.
+The easiest way to edit your project's ReadMe.md it is via github's in-browser markdown editorLinks to an external site. (which has a preview and images/videos can just drag/dropped in!). Here's an intro to writing Markdown "code"Links to an external site.. 
+You could even create and embed a GIF animation:
+•	https://dev.to/alenaniku/make-your-readme-better-with-images-and-gifs-1k60Links to an external site.
+•	https://dev.to/kelli/demo-your-app-in-your-github-readme-with-an-animated-gif-2o3cLinks to an external site.
+Note to students using only jupyter notebooks: Make sure that the final notebook contains a working run through all the cells, so that a visitor can see (in github) what's happening in your notebook and what cool graphs, etc. it can generate.
+Note that I may subtract points for missing or wrong content or for bad/missing markdown formatting. I will tell you what's missing, incomplete or wrong and it's up to you to fix these issues and then leave a comment that you've fixed things so that I get a note about this. Alternatively you can also email me.
