@@ -10,14 +10,17 @@ This project remixes Library of Congress information into a carousel based on a 
 
  # User Steps
 ## Create the Requests for the Library of Congress API
--- import requests
--- Define Search Parameters
--- Make the Request
--- Check the Response and add in additinoal information.
+- Import requests
+- Define Search Parameters
+   Make the Request
+   Check the Response and add in additinoal information.
 
 ## Create a a Flask App
---Import Flask 
-
+- Import Flask 
+- List the Default page and description that search will replace
+- Create a function that uses the API to search and retrieve images and captions.
+- 
+    
 
 •	Describe how to use your project (preferably using screenshots), walking through it from a end user's perspective, step - by step, in a logical order.
 •	If possible make a note on possible errors (i.e. messages that the user might get) and how to fix those.
