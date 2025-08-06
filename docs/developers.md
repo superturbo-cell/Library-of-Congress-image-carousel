@@ -1,4 +1,4 @@
-# External documentation (i.e. the developer's guide)#
+# Information for Developers
 This project remixes Library of Congress information into a carousel based on a search term input. The project uses Python to construct a Flask Application that is then formatted  into classes with Bootstrap 5. 
 
 # User
