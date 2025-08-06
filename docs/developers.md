@@ -8,6 +8,23 @@ This project remixes Library of Congress information into a carousel based on a 
 # Install 
 Use pip to install third party packages [Flask](https://flask.palletsprojects.com/en/stable/url) and [Requests](https://pypi.org/project/requests/)
 
+# Search Code for the API
+///    # Make the request
+    response = requests.get(url, params=params)
+
+    # Check response
+    if response.status_code == 200:
+        data = response.json()
+        for item in data.get('results', []):
+            title = item.get('title')
+            image_dict = item.get('image', 'No image available')
+            image_url = image_dict["full"]
+            image_urls.append(image_url)
+            text_list.append(title)
+
+    else:
+        print(f"Error: {response.status_code}") ///
+
 # User Flow
 •	Known Issues: You should mention any issues you know about (or suspect)
 
