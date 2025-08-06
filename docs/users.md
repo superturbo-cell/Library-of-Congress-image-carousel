@@ -4,11 +4,11 @@ This project remixes Library of Congress information into a carousel based on a 
 # User
 - Library workers or Archivists who develop discovery tools for their institution's digital collections.
 - Code that can be used with the API systems of shared archival and digital collections to retrieve information in an alternative view. 
- 
 
+ # API use
+ This project was developed on a [Library of Congress API]([url](https://www.loc.gov/apis/json-and-yaml/)) that can be used without a key. 
 
-Create a guide that tells the (end) user everything needed to install your project and run it. This can be a document separate to your project ReadMe.md file but I think it's best to actually put everything in the Readme.md file, which is what many github projects do. Please read the instructions to the developer's documentation now, so you have an idea how both documents should be separated (i.e. which material goes where). There may be some overlap but if in doubt, the user's guide should refer to simple stuff, complex stuff should go in the developer's documentation.
-•	You can assume that your user is savvy enough to either clone or download your repo into a folder. So no need to describe that.
+ # User Steps
 •	Describe any setup that has to be done before the user can start, such as signing up for a API key, creating a specific kind of table. etc.
 •	If your project uses API or other keys, clearly describe how the user is supposed to use their keys, e.g. creating a keys.py file (give an example of the file content with bogus keys), using dotenv. etc. 
 •	Describe how to use your project (preferably using screenshots), walking through it from a end user's perspective, step - by step, in a logical order.
