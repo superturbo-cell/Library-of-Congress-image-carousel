@@ -9,7 +9,7 @@ This project remixes Library of Congress information into a carousel based on a 
 Use pip to install third party packages [Flask](https://flask.palletsprojects.com/en/stable/url) and [Requests](https://pypi.org/project/requests/)
 
 # Search Code for the API
-'''   # Make the request
+```  # Make the request
     response = requests.get(url, params=params)
 
     # Check response
@@ -24,7 +24,7 @@ Use pip to install third party packages [Flask](https://flask.palletsprojects.co
 
     else:
         print(f"Error: {response.status_code}")
-'''
+```
 # User Flow
 •	Known Issues: You should mention any issues you know about (or suspect)
 
