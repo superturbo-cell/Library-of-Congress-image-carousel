@@ -31,5 +31,7 @@ This project remixes Library of Congress information into a carousel based on a 
 
 [Example Results](http://127.0.0.1:5000/?search=dog) "LOC Carousel")
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/03eb56fb-3de5-439f-9058-f72adc40ae46" />
+
 
 
