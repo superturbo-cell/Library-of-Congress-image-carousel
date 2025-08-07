@@ -53,7 +53,10 @@ The code for the Carousel in Bootstrap 5 is :
 ```
 
 # User Flow
-•	Known Issues: You should mention any issues you know about (or suspect)
+This was created in three pieces: the code that effectively searches the Library of Congress collection, the code the creates the Flask App, and the Bootstrap code that allows for Javascript and HTML class editing. 
+
+# Known Issues
+This is a basic, entry app, and there are issues that could be resolved, such as a more accurate search by format. 
 
 # Future Work
 - Using this carousel with other API content
