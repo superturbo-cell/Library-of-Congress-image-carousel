@@ -28,8 +28,8 @@ This project remixes Library of Congress information into a carousel based on a 
 - Code for both a search box and the display of the images. 
     
 
-
-[Example Results](http://127.0.0.1:5000/?search=dog) "LOC Carousel")
+## Sample Search Result
+Below is what the image carousel will look like with the included code. 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1a7df3b2-51db-443d-98e6-3d189f1f2e6d" />
 
